@@ -1,7 +1,8 @@
 header{
 background-color: #424e61;
 color: white;
-
+display: flex;
+justify-content: space-around;
 
 
 
@@ -9,5 +10,11 @@ color: white;
 .cabeçalho-imagem{
     width: 18%;
 
+
+}
+.cabeçalho-lista-item{
+display: inline-block;
+font-size: 24px;
+margin: 0 16px;
 
 }
